@@ -1,0 +1,30 @@
+# node mongo git ignore
+ecommerce/node_modules
+
+ecommerce/.env
+
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+ecommerce-front/node_modules
+ecommerce-front/.pnp
+ecommerce-front/.pnp.js
+
+# testing
+ecommerce-front/coverage
+
+# production
+ecommerce-front/build
+
+# misc
+ecommerce-front/.env
+ecommerce-front/.DS_Store
+ecommerce-front/.env.local
+ecommerce-front/.env.development.local
+ecommerce-front/.env.test.local
+ecommerce-front/.env.production.local
+ecommerce-front/npm-debug.log*
+ecommerce-front/yarn-debug.log*
+ecommerce-front/yarn-error.log*
